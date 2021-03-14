@@ -8,14 +8,14 @@ public class Logical_operator {
 		
 		ch = sc.next().charAt(0);
 		
-		if(ch>='A' && ch<='Z')
+		if(ch=='a' || ch=='e' ||  ch=='i' ||  ch=='o' ||  ch=='u' )
 		{
-			System.out.println("The letter is capital");
+			System.out.println("The letter is vowel");
 			
 		}
 		else
 		{
-			System.out.println("The letter is small");
+			System.out.println("The letter is consonant");
 		}
 
 	}
